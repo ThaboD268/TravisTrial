@@ -1,8 +1,10 @@
----
-before_install:
-- "npm i -g npm@version-number"
+--- 
+before_install: 
+  - "npm i -g npm@version-number"
 install: "npm install"
 language: node_js
+? "make test"
+: ~
 node_js: "~ node"
 script: "npm test"
 sudo: false
