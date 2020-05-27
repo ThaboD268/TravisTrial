@@ -1,6 +1,4 @@
---- 
-before_install: 
-  - "npm i -g npm@version-number"
+
 install: "npm install"
 language: node_js
 ? "make test"
